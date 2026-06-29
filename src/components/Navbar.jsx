@@ -17,7 +17,10 @@ export const NavBar = () => {
 
   return (
     <div>
-      <Navbar color="faded" light>
+      <Navbar
+        color="faded"
+        className="d-flex justify-content-end navbar-expand-md navbar-light bg-light"
+      >
         <NavbarBrand href="/" className="me-auto">
           reactstrap
         </NavbarBrand>
@@ -30,12 +33,16 @@ export const NavBar = () => {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+              <NavLink href="#">Homepage</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                GitHub
-              </NavLink>
+              <NavLink href="#">About</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#">Projects</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#">Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
