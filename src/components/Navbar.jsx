@@ -58,7 +58,7 @@ export const NavBar = () => {
         </div>
 
         <Collapse isOpen={!isOpen} navbar className="w-100">
-          <Nav navbar className="ms-auto align-items-md-center">
+          <Nav navbar className="ms-auto align-items-md-center fw-bold">
             <NavItem>
               <NavLink href="#" style={{ color: '#34E0A1' }}>
                 Home
@@ -76,7 +76,7 @@ export const NavBar = () => {
             </NavItem>
             <NavItem>
               <Button className="btn btn-secondary btn-sm p-0">
-                <NavLink href="#" style={{ color: '#34E0A1' }}>
+                <NavLink href="#" style={{ color: '#34E0A1' }} className='fst-italic'>
                   Contact
                 </NavLink>
               </Button>
