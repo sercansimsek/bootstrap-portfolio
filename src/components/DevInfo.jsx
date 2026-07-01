@@ -3,12 +3,12 @@ import { Button, NavLink } from 'reactstrap';
 export const DevInfo = () => {
   return (
     <>
-      <h1 className="text-center my-5">Sercan ŞİMŞEK</h1>
+      <h1 className="text-center mt-5 mb-4">Sercan {<br/>}ŞİMŞEK</h1>
       <hr
-        className="border border-2 border-secondary mx-auto mb-5"
+        className="border border-2 border-secondary mx-auto mb-4"
         style={{ width: '40%' }}
       />
-      <p className="text-center mx-auto" style={{ width: '60%' }}>
+      <p className="text-center mx-auto" style={{ width: '50%' }}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minima
         accusantium est architecto voluptate excepturi dolorum totam non
         necessitatibus fugiat!
