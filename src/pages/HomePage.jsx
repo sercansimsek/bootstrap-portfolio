@@ -1,26 +1,9 @@
-import { Button, NavLink } from 'reactstrap';
+import { DevInfo } from '../components/DevInfo';
 
 export const HomePage = () => {
   return (
     <>
-      <h1 className="text-center my-5">Sercan ŞİMŞEK</h1>
-      <hr
-        className="border border-2 border-secondary mx-auto mb-5"
-        style={{ width: '20%' }}
-      />
-      <p className="text-center mx-auto" style={{ width: '60%' }}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minima
-        accusantium est architecto voluptate excepturi dolorum totam non
-        necessitatibus fugiat!
-      </p>
-      <div className="d-flex justify-content-center gap-5">
-        <Button className="btn px-5 bg-light text-secondary">
-          <NavLink href="#">Projects</NavLink>
-        </Button>
-        <Button className="px-5 bg-black fw-bold btn" style={{ color: '#34E0A1' }}>
-          <NavLink href="#">Contact</NavLink>
-        </Button>
-      </div>
+      <DevInfo />
     </>
   );
 };

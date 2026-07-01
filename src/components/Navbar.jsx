@@ -76,7 +76,7 @@ export const NavBar = () => {
             </NavItem>
             <NavItem>
               <Button className="btn btn-secondary btn-sm p-0">
-                <NavLink href="#" style={{ color: '#34E0A1' }} className='fst-italic'>
+                <NavLink href="#" style={{ color: '#34E0A1' }} className='fst-italic p-2'>
                   Contact
                 </NavLink>
               </Button>
